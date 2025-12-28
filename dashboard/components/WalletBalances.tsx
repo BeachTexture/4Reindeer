@@ -72,25 +72,25 @@ export function WalletBalances({ wallets, loading }: WalletBalancesProps) {
 
       <ul className="list-none">
         <WalletRow
-          emoji="&#127877;"
+          emoji="&#10052;&#65039;"
           label="Master"
           balance={master.balance}
           address={master.address}
         />
         <WalletRow
-          emoji={volume.emoji || '\u2744\uFE0F'}
+          emoji="&#128202;"
           label="Volume"
           balance={volume.totalBalance || 0}
         />
         <WalletRow
-          emoji={buyback.emoji || '\u{1F525}'}
-          label="Buyback"
+          emoji="&#128293;"
+          label="Melt"
           balance={buyback.balance || 0}
           address={buyback.address}
         />
         <WalletRow
-          emoji={treasury.emoji || '\u{1F3E6}'}
-          label="Treasury"
+          emoji="&#127974;"
+          label="Vault"
           balance={treasury.balance || 0}
           address={treasury.address}
         />

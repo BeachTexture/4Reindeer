@@ -86,16 +86,16 @@ export function StatsCards({ stats, loading }: StatsCardsProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
       <StatCard
-        emoji="&#127877;"
-        title="SANTA"
+        emoji="&#10052;&#65039;"
+        title="FROZEN"
         mainValue={`${(fees.totalCollected || 0).toFixed(4)} SOL`}
         mainLabel="Total Collected"
         secondaryValue={(fees.claimCount || 0).toString()}
         secondaryLabel="Claims"
-        color="red"
+        color="blue"
       />
       <StatCard
-        emoji="&#10052;&#65039;"
+        emoji="&#128202;"
         title="VOLUME"
         mainValue={`${(volume.totalVolume || 0).toFixed(4)} SOL`}
         mainLabel="Total Volume"
@@ -105,7 +105,7 @@ export function StatsCards({ stats, loading }: StatsCardsProps) {
       />
       <StatCard
         emoji="&#128293;"
-        title="BURN"
+        title="MELT"
         mainValue={`${(burns.totalBurned || 0).toLocaleString()}`}
         mainLabel="Tokens Burned"
         secondaryValue={(burns.burnCount || 0).toString()}
@@ -113,8 +113,8 @@ export function StatsCards({ stats, loading }: StatsCardsProps) {
         color="orange"
       />
       <StatCard
-        emoji="&#129666;"
-        title="AIRDROP"
+        emoji="&#128142;"
+        title="SHATTER"
         mainValue={(airdrops.uniqueRecipients || 0).toString()}
         mainLabel="Unique Recipients"
         secondaryValue={(airdrops.distributionCount || 0).toString()}

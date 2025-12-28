@@ -2,9 +2,9 @@
 
 const data = [
   { name: 'Volume', value: 25, color: '#3498db' },
-  { name: 'Buyback', value: 25, color: '#ff3333' },
-  { name: 'Airdrop', value: 25, color: '#00e676' },
-  { name: 'Treasury', value: 25, color: '#ffcc00' },
+  { name: 'Melt', value: 25, color: '#ff3333' },
+  { name: 'Shatter', value: 25, color: '#00e676' },
+  { name: 'Vault', value: 25, color: '#ffcc00' },
 ];
 
 export function DistributionChart() {

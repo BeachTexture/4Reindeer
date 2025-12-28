@@ -9,7 +9,7 @@ export function Header({ isConnected }: HeaderProps) {
     <header className="pixel-header mb-10">
       <h1 className="font-pixel-headline text-base md:text-lg text-accent-red flex items-center gap-4" style={{ textShadow: '2px 2px 0 #fff' }}>
         <span className="text-2xl">&#129420;</span>
-        4Reindeer Dashboard
+        Frostbyte Dashboard
       </h1>
 
       <div className="flex items-center gap-3 text-xl pulse">

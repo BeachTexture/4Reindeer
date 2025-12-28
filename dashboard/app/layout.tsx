@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: '4Reindeer Dashboard',
-  description: 'Live tracking dashboard for the 4Reindeer tokenomics bot',
+  title: 'Frostbyte Dashboard',
+  description: 'Live tracking dashboard for the Frostbyte tokenomics bot',
 }
 
 export default function RootLayout({
