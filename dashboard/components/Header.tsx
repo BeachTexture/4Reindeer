@@ -10,7 +10,7 @@ export function Header({ isConnected }: HeaderProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('coming soon');
+    navigator.clipboard.writeText('8VdoFhtW7FYTna5TyQSStvCUizvXZniSSJZwuY3ypump');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -30,7 +30,7 @@ export function Header({ isConnected }: HeaderProps) {
             className="text-accent-gold hover:text-accent-orange transition-colors cursor-pointer font-pixel-body"
             title="Click to copy"
           >
-            {copied ? 'Copied!' : 'coming soon'}
+            {copied ? 'Copied!' : '8VdoFhtW7FYTna5TyQSStvCUizvXZniSSJZwuY3ypump'}
           </button>
         </div>
       </div>
